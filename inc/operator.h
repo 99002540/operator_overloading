@@ -3,99 +3,48 @@
 #include<iostream>
 using namespace std;
 
-class A
-{
-    int x;
-    int y;
-public:
-   A(){}
-    A(int a,int b):x{a},y{b}{}
-    A(int a):x{a}{}
  //Addition operator
-    A operator+(A& z){
-    A a4;
-    a4.x=x+z.x;
-    a4.y=y+z.y;
-    return a4;
-    }
+    A operator+(A& z);
+   
 //subtractor operator
 
-    A operator-(A& z){
-    A a5;
-    a5.x=x-z.x;
-    a5.y=y-z.y;
-    return a5;
-    }
+    A operator-(A& z);
+   
 //Multiplication operator
 
-    A operator*(A& z){
-    A a8;
-    a8.x=x*z.x;
-    a8.y=y*z.y;
-    return a8;
-    }
+    A operator*(A& z);
+  
 //Division operator
- A operator/(A& z){
-    A a10;
-    a10.x=x/z.x;
-    a10.y=y/z.y;
-    return a10;
-    }
+ A operator/(A& z);
+  
 // Modulation
 //Division operator
- A operator%(A& z){
-    A a11;
-    a11.x=x%z.x;
-    a11.y=y%z.y;
-    return a11;
-    }
-
+ A operator%(A& z);
+   
  //printing
-    void print(){
-    cout<<x<<" "<<y<<endl;
-    }
- //equality
-    bool operator==(A &z){
-    return (x==z.x&&y==z.y);
-    }
+    void print();
+   
+    bool operator==(A &z);
 //unequal
-    bool operator!=(A &z){
-    return (x!=z.x||y!=z.y);
-    }
+    bool operator!=(A &z);
 //pre increment
-      void operator++(){
-       x++;
-       }
+      void operator++();
        //post inc
-       void operator++(int ){
-       x++;
-       }
+       void operator++(int );
+       
        //pre dec
-       void operator--( ){
-       x--;
-       }
+       void operator--( );
        //post dec
-       void operator--(int ){
-       x--;
-       }
-       A operator-(){
-       return (-x);
-       }
+       void operator--(int );
+       A operator-();
        //display
-       void display(){
-       cout<<x<<endl;
-       }
+       void display();
        //greater
-       bool operator>(A &z){
-       return (x>z.x);
-       }
+       bool operator>(A &z);
        //less
-       bool operator<(A &z){
-       return (x<z.x);
-       }
+       bool operator<(A &z);
 
 
-};
 
 
 
