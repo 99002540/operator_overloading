@@ -1,7 +1,7 @@
 
   
  //Addition operator
-  A A ::operator+(A& z){
+   A operator+(A& z){
     A a4;
     a4.x=x+z.x;
     a4.y=y+z.y;
