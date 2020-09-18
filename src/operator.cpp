@@ -1,7 +1,4 @@
 
-
-
-public:
    A(){}
     A(int a,int b):x{a},y{b}{}
     A(int a):x{a}{}
