@@ -7,49 +7,53 @@ class A{
  int x;
  int y;
  public:
- A (){}
- A(int x,int y):x{x},y{y}{}
- A(int x):x{x}{}
+ A (){this->x=0;
+     this->y=0;
+     }
+ A(int x,int y){this->x=x;
+               this->y=y;
+               }
+ A(int x):{this->x=x;
+          }
  //Addition operator
-    A operator+(A& z);
+   friend A operator+(A& ,A&);
    
 //subtractor operator
 
-    A operator-(A& z);
-   
+   friend A operator-(A& ,A&);
 //Multiplication operator
 
-    A operator*(A& z);
+   friend A operator*(A& ,A&);
   
 //Division operator
- A operator/(A& z);
+ friend A operator/(A& ,A&);
   
 // Modulation
 //Division operator
- A operator%(A& z);
+ friend A operator%(A& ,A&);
    
  //printing
-    void print();
+   friend void print();
    
-    bool operator==(A &z);
+    friend bool operator==(A&,A&);
 //unequal
-    bool operator!=(A &z);
+    friend bool operator!=(A&,A&);
 //pre increment
-      void operator++();
+      friend void operator++();
        //post inc
-       void operator++(int );
+       friend void operator++(int );
        
        //pre dec
-       void operator--( );
+      friend  void operator--( );
        //post dec
-       void operator--(int );
-       A operator-();
+       friend void operator--(int );
+       friend A operator-();
        //display
-       void display();
+       friend void display();
        //greater
-       bool operator>(A &z);
+      friend  bool operator>(A&,A&);
        //less
-       bool operator<(A &z);
+      friend bool operator<(A&,A&);
 
 
 };
