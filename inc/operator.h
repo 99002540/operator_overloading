@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 class A{
- private:
+public:
  int x;
  int y;
  public:
@@ -13,14 +13,8 @@ class A{
  A(int x):x{x}{}
           
  //Addition operator
- A operator+(A& z){
-{
-    A a4;
-    a4.x=x+z.x;
-    a4.y=y+z.y;
-    return a4;
-    }
-   
+ A operator+(A& z);
+
 //subtractor operator
 
  //  friend A operator-(A& ,A&);
