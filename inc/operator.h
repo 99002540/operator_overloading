@@ -20,17 +20,17 @@ class A{
    
 //subtractor operator
 
-   friend A operator-(A& ,A&);
+ //  friend A operator-(A& ,A&);
 //Multiplication operator
 
-   friend A operator*(A& ,A&);
+ //  friend A operator*(A& ,A&);
   
 //Division operator
- friend A operator/(A& ,A&);
+ //friend A operator/(A& ,A&);
   
 // Modulation
 //Division operator
- friend A operator%(A& ,A&);
+ //friend A operator%(A& ,A&);
    
  
 
