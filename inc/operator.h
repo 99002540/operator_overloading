@@ -35,6 +35,13 @@ class A{
  
 
 };
+ A operator+(A& x,A& y){
+    A a4;
+    a4.x=x+z.x;
+    a4.y=y+z.y;
+    return a4;
+    }
+
 
 
 #endif // OPERATOR_H_INCLUDED
