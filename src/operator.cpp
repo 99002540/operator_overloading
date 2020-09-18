@@ -1,7 +1,7 @@
 
   
  //Addition operator
-  A::  A operator+(A& z){
+  A A ::operator+(A& z){
     A a4;
     a4.x=x+z.x;
     a4.y=y+z.y;
@@ -9,7 +9,7 @@
     }
 //subtractor operator
 
-    A::A operator-(A& z){
+    A A ::operator-(A& z){
     A a5;
     a5.x=x-z.x;
     a5.y=y-z.y;
@@ -17,14 +17,14 @@
     }
 //Multiplication operator
 
- A::   A operator*(A& z){
+ A A:: operator*(A& z){
     A a8;
     a8.x=x*z.x;
     a8.y=y*z.y;
     return a8;
     }
 //Division operator
-A:: A operator/(A& z){
+A A:: operator/(A& z){
     A a10;
     a10.x=x/z.x;
     a10.y=y/z.y;
@@ -32,7 +32,7 @@ A:: A operator/(A& z){
     }
 // Modulation
 //Division operator
- A::A operator%(A& z){
+ A A ::operator%(A& z){
     A a11;
     a11.x=x%z.x;
     a11.y=y%z.y;
