@@ -7,7 +7,7 @@ class A{
  int x;
  int y;
  public:
- A ():{}
+ A (){}
  A(int x,int y):x{x},y{y}{}
  A(int x):x{x}{}
  //Addition operator
