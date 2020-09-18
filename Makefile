@@ -5,8 +5,7 @@ PROJECT_NAME = operator_overloading
 BUILD = build
 
 # All source code files
-SRC = main.cpp\
-src/operator.cpp\
+SRC =src/operator.cpp\
 
 # All test source files
 #TEST_SRC = src/operator.cpp\
