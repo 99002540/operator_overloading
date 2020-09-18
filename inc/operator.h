@@ -39,15 +39,15 @@ class A{
 //unequal
     friend bool operator!=(A&,A&);
 //pre increment
-      friend void operator++();
+      friend void operator++(A&);
        //post inc
-       friend void operator++(int );
+       friend void operator++(int A& );
        
        //pre dec
-      friend  void operator--( );
+      friend  void operator--(A& );
        //post dec
-       friend void operator--(int );
-       friend A operator-();
+       friend void operator--(int A&);
+       friend A operator-(A&);
        //display
        friend void display();
        //greater
