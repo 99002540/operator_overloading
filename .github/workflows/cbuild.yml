@@ -15,5 +15,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: make all
-      run:  make all -C main.cpp/
+    - name: make 
+      run:  make -C main.cpp/
