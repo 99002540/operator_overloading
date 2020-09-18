@@ -1,11 +1,11 @@
 # Name of the project
-PROJECT_NAME = operator
+PROJECT_NAME = test_operator
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC = main.cpp\
+SRC = main.cpp
 
 
 # All test source files
