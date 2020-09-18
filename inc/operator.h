@@ -7,16 +7,19 @@ class A{
  int x;
  int y;
  public:
- A (){this->x=0;
-     this->y=0;
+ A (){
      }
- A(int x,int y){this->x=x;
-               this->y=y;
-               }
- A(int x){this->x=x;
-          }
+ A(int x,int y):x{x},y{y}{ }
+ A(int x):x{x}{}
+          
  //Addition operator
- friend A operator+(A&,A&);
+ A operator+(A& z){
+{
+    A a4;
+    a4.x=x+z.x;
+    a4.y=y+z.y;
+    return a4;
+    }
    
 //subtractor operator
 
@@ -35,12 +38,7 @@ class A{
  
 
 };
- A operator+(A& x,A& y){
-    A a4;
-    a4.x=x+x;
-    a4.y=y+y;
-    return a4;
-    }
+
 
 
 
