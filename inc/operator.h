@@ -16,7 +16,7 @@ class A{
  A(int x){this->x=x;
           }
  //Addition operator
-   A a= A operator+(A& ,A&);
+  A operator+(A& ,A&);
    
 //subtractor operator
 
