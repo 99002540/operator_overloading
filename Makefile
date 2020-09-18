@@ -17,7 +17,7 @@ SRC = main.cpp
 # All include folders with header files
 INC	= -Iinc
 
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME)
 
 # Document files
 # DOCUMENTATION_OUTPUT = documentation/html
