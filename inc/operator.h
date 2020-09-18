@@ -9,6 +9,7 @@ class A{
  public:
  A ():{}
  A(int x,int y):x{x},y{y}{}
+ A(int x):x{x}{}
  //Addition operator
     A operator+(A& z);
    
