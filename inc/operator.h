@@ -2,7 +2,7 @@
 #define OPERATOR_H_INCLUDED
 #include<iostream>
 using namespace std;
-
+class A{
  //Addition operator
     A operator+(A& z);
    
@@ -45,7 +45,7 @@ using namespace std;
        bool operator<(A &z);
 
 
-
+};
 
 
 #endif // OPERATOR_H_INCLUDED
