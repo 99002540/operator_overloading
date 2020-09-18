@@ -1,16 +1,16 @@
 # Name of the project
-PROJECT_NAME = operator_overloading
+PROJECT_NAME = operator
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC =main.cpp/
-src/operator.cpp\
+SRC = main.cpp\
+src/overator.cpp\
 
 # All test source files
-#TEST_SRC = src/operator.cpp\
-#test/operator.cpp
+#TEST_SRC = src/sum.c\
+#test/test_sum.c
 
 #TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
