@@ -13,7 +13,7 @@ class A{
  A(int x,int y){this->x=x;
                this->y=y;
                }
- A(int x):{this->x=x;
+ A(int x){this->x=x;
           }
  //Addition operator
    friend A operator+(A& ,A&);
