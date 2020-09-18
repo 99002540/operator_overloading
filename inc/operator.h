@@ -3,6 +3,12 @@
 #include<iostream>
 using namespace std;
 class A{
+ private:
+ int x;
+ int y;
+ public:
+ A ():{}
+ A(int x,int y):x{x},y{y}{}
  //Addition operator
     A operator+(A& z);
    
