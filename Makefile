@@ -6,7 +6,7 @@ BUILD = build
 
 # All source code files
 SRC = main.cpp\
-src/overator.cpp\
+src/operator.cpp\
 
 # All test source files
 #TEST_SRC = src/sum.c\
