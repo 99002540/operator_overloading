@@ -51,6 +51,29 @@ public:
        //less
       friend bool operator<(A&,A&);*/
 
+//printing
+   friend void print();
+   
+    friend bool operator==(A&,A&);
+//unequal
+    friend bool operator!=(A&,A&);
+//pre increment
+      friend void operator++(A&);
+       //post inc
+       friend void operator++(int A& );
+       
+       //pre dec
+      friend  void operator--(A& );
+       //post dec
+       friend void operator--(int A&);
+       friend A operator-(A&);
+       //display
+       friend void display();
+       //greater
+      friend  bool operator>(A&,A&);
+       //less
+      friend bool operator<(A&,A&);
+
 
    
  
