@@ -5,7 +5,7 @@ PROJECT_NAME = test_operator
 BUILD = build
 
 # All source code files
-SRC = main.cpp
+SRC = main.cpp/
 
 
 # All test source files
